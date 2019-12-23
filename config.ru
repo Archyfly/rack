@@ -26,8 +26,6 @@ class Application
 
       array_from_first_letters = []
       params_arr.each { |val|
-        #response.write "#{FORMATS} <br>"
-        #response.write "CORRECT! <br>" if FORMATS.include?(val.to_s)
         if valid_format(val)
           array_from_first_letters.push(val[0])
         else
